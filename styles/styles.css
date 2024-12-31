@@ -1,0 +1,85 @@
+body {
+    font-family: 'Courier New', Courier, monospace; /* Optional: Set a default font */
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid black;
+
+    justify-content: center;
+    font-size: large;
+
+}
+
+
+
+.navlink {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#linkedinnav {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+main {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2.5em;
+    margin: auto;
+    font-size:large;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    text-align: left;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+#hello {
+    font-size: 5em;
+    font-weight:bolder;
+    padding-bottom: 0.25em;
+}
+
+#homemaincontent {
+    display:flex;
+    vertical-align: middle;
+}
+#listofinterests {
+    width: 40%;
+}
+
+#AIFassets {
+    width: 60%;
+
+}
+
+#resume_image {
+    border: 1px dashed black;
+}
